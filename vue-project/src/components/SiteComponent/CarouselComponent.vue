@@ -14,7 +14,7 @@ export default defineComponent({
     const colors = ref(['#6C7A82', '#6C7A89', '#6C7A88'])
     const {t, locale} = useI18n({useScope: 'global'})
 
-    return{
+    return {
       slides, colors, t, router
     }
   }
@@ -32,7 +32,7 @@ export default defineComponent({
         v-for="slide in slides"
         :key="slide.id"
         :src="slide.img"
-        style="opacity: 90%; filter: brightness(50%)"
+        style="opacity: 90%; filter: brightness(50%);"
         cover
         class="v-caro"
 
@@ -48,23 +48,21 @@ export default defineComponent({
       >
         <v-card-item>
 
-            <h2 class="fw-medium" style="color:#f2f2f2; text-shadow: 2px 2px 2px black; opacity: 100%;">
-              {{ $t(slide.title) }}
-            </h2>
-            <h4 class="fw-light" style="color: #f2f2f2; text-shadow: 2px 2px 2px black; opacity: 100%">
-              {{$t(slide.subtitle)}}
-            </h4>
+          <h2 class="fw-medium" style="color:#f2f2f2; text-shadow: 2px 2px 2px black; opacity: 100%;">
+            {{ $t(slide.title) }}
+          </h2>
+          <h4 class="fw-light" style="color: #f2f2f2; text-shadow: 2px 2px 2px black; opacity: 100%">
+            {{ $t(slide.subtitle) }}
+          </h4>
 
         </v-card-item>
 
         <v-card-actions>
           <v-btn class="fw-medium" @click.prevent="router.push('/documents')">
-            {{$t('seeMore')}}
+            {{ $t('seeMore') }}
           </v-btn>
         </v-card-actions>
       </v-card>
-
-
 
 
     </v-carousel-item>
@@ -72,12 +70,29 @@ export default defineComponent({
 </template>
 
 <style scoped>
-html,body{
+html, body {
   font-family: "Source Sans Pro";
 }
-.cardv{
+
+.cardv {
   opacity: 95%;
   margin-left: 100px;
+
 }
 
+@media only screen and (max-width: 600px) {
+  body, html {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  .cardv {
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+
+  }
+
+
+}
 </style>

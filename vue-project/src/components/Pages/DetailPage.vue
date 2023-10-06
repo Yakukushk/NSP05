@@ -1,5 +1,5 @@
 <script>
-import {computed, defineComponent, onMounted, reactive, ref} from "vue";
+import {computed, defineComponent, onBeforeUpdate, onMounted, onUnmounted, onUpdated, reactive, ref} from "vue";
 import HeaderComponent from "@/components/SiteComponent/HeaderComponent.vue";
 import MobileHeader from "@/components/SiteComponent/MobileComponent/MobileHeader.vue";
 import {useStorage} from "@/components/pinia/store";
@@ -154,4 +154,12 @@ export default defineComponent({
 html, body {
   font-family: "Source Sans Pro";
 }
+@media only screen and (max-width: 344px) {
+  body,html {
+    font-size: 10px;
+    padding: 10px;
+    position: relative;
+    display: flex;
+  }
+  }
 </style>

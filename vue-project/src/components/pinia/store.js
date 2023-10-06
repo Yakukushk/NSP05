@@ -124,7 +124,7 @@ export const useStorage = defineStore('storage', () => {
     function loadingTimer() {
         setTimeout(() => {
             loading.value = false;
-        }, 500)
+        }, 1000)
     }
 
     return {

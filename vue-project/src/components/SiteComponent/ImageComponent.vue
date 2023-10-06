@@ -42,7 +42,7 @@ export default defineComponent({
           style="opacity: 90%; filter: brightness(50%);"
       ></v-img>
 
-      <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <div class="image-component" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
         <h2 v-if="shouldRenderContent" class="text-h2 fw-bold" style="color: whitesmoke;">{{title}} </h2>
         <h4 v-else class="fw-bold" style="color: whitesmoke; text-align: center">{{title}} </h4>
         <p v-if="shouldRenderContent" class="text-h6 fw-light" style="color: whitesmoke;">{{subtitle}}</p>
@@ -52,5 +52,11 @@ export default defineComponent({
 </template>
 
 <style scoped>
+@media only screen and (max-width: 600px) {
+   .image-component{
+    font-size: 14px;
+    margin-top: 15px;
 
+  }
+}
 </style>

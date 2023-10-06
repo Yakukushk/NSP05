@@ -31,7 +31,7 @@ export default defineComponent({
         cover
         class="v-caro"
     >
-      <v-card :color="colors[slide.id]" max-height="300" class="mt-sm-5 cardv" style="opacity: 90%">
+      <v-card :color="colors[slide.id]" max-height="300" class="mt-sm-5 cardv" style="opacity: 90%; margin-top: 80px">
         <v-card-item>
           <h2 class="fw-medium" style="color: #f2f2f2; font-size: 20px">
             {{ $t(slide.title) }}
