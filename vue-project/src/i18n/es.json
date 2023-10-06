@@ -1,0 +1,139 @@
+{
+  "headerComponent": {
+    "home": "Home",
+    "service": "Nuestros Servicios",
+    "document": "Documentos de Ucrania",
+    "contact": "Contacto"
+  },
+  "carouselComponent": {
+    "title": "OFICINA DE LEGALIZACIÓN DE DOCUMENTOS",
+    "subtitle": "Prestamos servicios de obtención de copias y duplicados de documentos (certificado de no antecedentes penales, certificado de nacimiento, certificado de matrimonio, certificado de divorcio, certificado de defunción, certificado de cambio de apellido, resolución judicial, etc.) del nuevo estándar estatal de Ucrania de todas las regiones, incluidas las regiones de Donetsk y Luhansk, así como la República de Crimea."
+  },
+  "carouselComponent1": {
+    "title": "PRECIOS FAVORABLES",
+    "subtitle": "Puede encontrar los precios de nuestros servicios en las páginas del sitio al elegir el servicio que necesita. Garantizamos la coincidencia de precio y calidad. No tenemos cargos adicionales ni ocultos"
+  },
+  "carouselComponent2": {
+    "title": "SERVICIO DE ALTA CALIDAD",
+    "subtitle": "Puede estar seguro de que no paga de más por los servicios prestados y obtiene solo lo que necesita. Ofrecemos una amplia gama de servicios: desde la obtención de una copia del certificado del registro civil y la apostillación de certificados de no antecedentes penales hasta la apostillación y traducción de diversos documentos: diploma, suplemento al diploma, documentos laborales y otros."
+  },
+  "seeMore" : "Ver más",
+  "carouselComponent3": {
+    "title": "AMABILIDAD",
+    "subtitle": "Encontramos un trato personal con cada cliente y garantizamos un resultado de calidad que le hará volver a nosotros una y otra vez."
+  },
+  "tabComponent": {
+    "title": "Certificado de carencia de antecedentes penales (expedido en lugar de un certificado)",
+    "subtitle": "Extracto del sistema informativo-analítico Contabilización de la información sobre el sometimiento de una persona a responsabilidad penal y la presencia de antecedentes penales",
+    "text": "Extracto del sistema de información-analítica Contabilidad de la información sobre la responsabilidad penal de una persona y la presencia de antecedentes penales \nEn la actualidad, se emite en lugar de un certificado de no antecedentes penales y es un documento oficial que confirma el hecho de la ausencia (presencia) de antecedentes penales de un individuo. También confirma que el individuo no es buscado. En Ucrania, el Departamento de Información y Apoyo Analítico del Ministerio del Interior es el encargado de expedir el certificado de ausencia de antecedentes penales.",
+    "stepTitle" : "CÓMO COMPROBAR LA AUTENTICIDAD DEL DOCUMENTO",
+    "step" : {
+      "title" : "Escanea con tu teléfono el código QR que aparece en la parte superior derecha del documento",
+      "title1" : "Comprobar en la página web del Ministerio del Interior"
+    }
+  },
+  "tabComponent1": {
+    "title": "Certificados de nacimiento, matrimonio y divorcio",
+    "subtitle": "Certificado de nacimiento, certificado de matrimonio, certificado de divorcio, certificado de defunción, extracto del registro estatal de matrimonio, divorcio, cambio de apellido, resoluciones judiciales de Ucrania.",
+    "text" : "Certificado de nacimiento es un certificado de registro estatal de un acto del estado civil - el hecho del nacimiento de un niño. Este documento contiene información sobre el nombre del niño, fecha de nacimiento y los nombres de sus padres. Por regla general, el certificado de nacimiento es el principal y único documento hasta que el niño alcanza la edad en que se expide el pasaporte civil. El certificado de matrimonio es un documento oficial que confirma que dos personas están casadas. En la mayoría de las jurisdicciones, un funcionario sólo expide un certificado de matrimonio después de que se haya realizado un registro civil.",
+    "stepTitle" : "Comprobar apostillas del Ministerio de Justicia de Ucrania",
+    "step" : {
+      "title" : "",
+      "title1" : ""
+    }
+  },
+  "tabComponent2": {
+    "title": "Referencias con apostilla y traducción",
+    "subtitle": "Un certificado de carencia de antecedentes penales es un documento que confirma el hecho de que una persona no tiene antecedentes penales, así como el hecho de que una persona no es buscada. En Ucrania, el Departamento de Información y Apoyo Analítico del Ministerio del Interior es responsable de la emisión de certificados de no antecedentes penales.",
+    "text" : "Extracto del sistema informativo-analítico:\n Contabilización de la información sobre el sometimiento de una persona a responsabilidad penal y la presencia de antecedentes penales",
+    "stepTitle" : "Comprobación de la legitimidad de un certificado de antecedentes penales",
+    "step" : {
+      "title" : "",
+      "title1" : ""
+    }
+  },
+  "stepText": {
+    "stepText1": "Presentar una solicitud",
+    "stepText2": "Acordar condiciones, coste, opciones de pago",
+    "stepText3": "Recibir el pedido lo antes posible de forma cómoda"
+  },
+  "send": "Enviar",
+  "clear": "Clear",
+  "formContact": {
+    "userName": "Nombre",
+    "userPhone": "Número de teléfono",
+    "userPhoneES": "Número de teléfono España",
+    "userEmail": "Email",
+    "userSelect": "Seleccionar",
+    "userMessage": "Message",
+    "userSubject": "Subject"
+  },
+  "contactForm": {
+    "arr": {
+      "documentoPedido": "documentosPedido",
+      "conDocumento": "Consulta",
+      "helpDocument": "Ayuda con la traducción",
+      "feedback": "Feedback"
+    }
+  },
+  "contactProjectText": {
+    "txt1": "SIEMPRE ESTAMOS EN CONTACTO",
+    "txt2": "Puedes rellenar el formulario de contacto"
+  },
+  "footer": {
+    "socialNet": "Nuestras redes sociales",
+    "companyName": "GABINETE DE LEGALIZACIÓN DE DOCUMENTOS",
+    "service": "Otros servicios",
+    "contact": "Contacto",
+    "dirección": "Nuestra dirección",
+    "addressMain": "Calle Ilyinska 20, Kiev, Ucrania, 02000",
+    "horario": "Horario de trabajo",
+    "daytable": "Mon-Fri"
+  },
+  "service": {
+    "title": "Traducción de documentos al español y otros idiomas (más de 30 idiomas)",
+    "title1": "Cumplimentación de formularios",
+    "title2": "Legalización de documentos en la Embajada de España para visados de contratos de trabajo, reagrupación familiar, estudios, etc.",
+    "title3": "Apostillado en el Ministerio de Justicia de Ucrania",
+    "title4": "Apostillado en el Ministerio de Educación y Ciencia de Ucrania",
+    "title5": "Apostillado en el Ministerio de Asuntos Exteriores de Ucrania",
+    "title6": "Obtención de certificados de carencia de antecedentes penales en el Ministerio del Interior de Ucrania",
+    "title7": "Certificación de certificados médicos en el Ministerio de Sanidad de Ucrania",
+    "title8": "Registro y legalización de documentos para todos los países"
+  },
+  "service1" : {
+    "title" : "Reclamación de cualquier documento de origen ucraniano (y no sólo)",
+
+    "title1" : "Preparación de documentos para su presentación a instituciones oficiales de países extranjeros:",
+
+    "title2" : "Solicitud de documentos del Registro Civil de la nueva muestra - certificados de nacimiento, matrimonio, divorcio, extractos sobre cambio de apellido prematrimonial y nombre de madre soltera, etc.",
+
+    "title3" : "Obtención de duplicados de documentos (certificados de nacimiento / matrimonio / defunción) + APOSTIL",
+
+    "title4" : "Expedición de certificado de no antecedentes penales para ciudadanos de Ucrania + APOSTIL;",
+
+    "title5" : "Expedición de certificados de registro de residencia + APOSTOL",
+    "title6" : "Declaraciones de estado civil;",
+
+    "title7" : "Apostillado y doble apostillado;",
+
+    "title8" : "Colocación de la apostilla en copias notariales de documentos (pasaportes, expedientes de trabajo, etc., incluidos los antiguos certificados de nacimiento - libros verdes expedidos antes del 24 de agosto de 1991);",
+
+    "title9" : "Colocación de la apostilla en documentos educativos;"
+
+  },
+  "titleService" : "¡Prestamos servicios de obtención de documentos para ciudadanos de Ucrania y países europeos!",
+  "questionService" : "Preguntas frecuentes",
+  "questionSection" : {
+    "title" : "¿Qué necesito para solicitar un certificado? ",
+    "title1" : "¿Cómo se realiza el pago? ",
+    "title2" : "La entrega del documento está incluida en los gastos de envío y se realiza en la dirección que haya especificado al realizar el pedido"
+  },
+  "answerSection" : {
+    "txt" : "Para obtener un certificado de carencia de antecedentes penales, es necesario enviar los siguientes documentos en un mensajero conveniente para usted, o especificando su número de teléfono por correo electrónico",
+    "txt1" : "El servicio se presta previo pago de un anticipo de 50 euros. La segunda parte del pago tiene lugar después de que el documento (o documentos) esté listo.Importante: el trabajo comienza a partir de la recepción del anticipo de 50 euros.",
+    "txt2" : "La entrega del documento está incluida en los gastos de envío y se realiza en la dirección que haya especificado al realizar el pedido."
+  },
+  "searchString" : "Buscar"
+
+}

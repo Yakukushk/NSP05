@@ -1,0 +1,141 @@
+{
+  "headerComponent": {
+    "home": "Home",
+    "service": "Our Services",
+    "document": "Documents from Ukraine",
+    "contact": "Contact"
+  },
+  "carouselComponent": {
+    "title": "DOCUMENT LEGALIZATION BUREAU",
+    "subtitle": "We provide services for obtaining copies and duplicates of documents (certificate of no criminal record, birth certificate, marriage certificate, divorce certificate, death certificate, certificate of change of surname, court decision, etc.) of the new state standard of Ukraine from all regions, including Donetsk and Luhansk regions, as well as the Republic of Crimea."
+  },
+  "carouselComponent1": {
+    "title": "FAVORABLE PRICES",
+    "subtitle": "You can find prices for our services on the pages of the site when choosing the service you need. We guarantee the price and quality match. We do not have any additional or hidden fees."
+  },
+  "carouselComponent2": {
+    "title": "HIGH QUALITY SERVICE",
+    "subtitle": "You can be sure that you do not overpay for the services provided and get only what you need. We provide a wide range of services: from obtaining a copy of the registry office certificate and apostillization of certificates of no criminal record to apostillization and translation of various documents: diploma, diploma supplement, labor and other documents."
+  },
+  "seeMore" : "See More",
+  "carouselComponent3": {
+    "title": "FRIENDLINESS",
+    "subtitle": "We find a personal approach to each client and guarantee a quality result that will make you come back to us again and again."
+  },
+  "tabComponent": {
+    "title": "Certificate of no criminal record (issued instead of a certificate)",
+    "subtitle": "Extract from the information-analytical system Accounting of information on bringing a person to criminal liability and the presence of a criminal record",
+    "text": "Extract from the information-analytical system Accounting of information on bringing a person to criminal liability and having a criminal record At the moment, it is issued instead of a certificate of no criminal record and is an official document confirming the fact of absence (presence) of a criminal record of an individual. It also confirms that an individual is not wanted. In Ukraine, the Department of Information and Analytical Support of the Ministry of Internal Affairs is responsible for issuing the certificate of no criminal record.",
+    "stepTitle" : "HOW TO CHECK THE AUTHENTICITY OF THE DOCUMENT",
+    "step" : {
+      "title" : "Scan the QR code in the upper right part of the document with your phone.",
+      "title1" : "Check on the website of the Ministry of Internal Affairs"
+    }
+  },
+  "tabComponent1": {
+    "title": "Birth, marriage, divorce certificates",
+    "subtitle": "Birth certificate, marriage certificate, divorce certificate, death certificate, extract from the state register of marriage, divorce, change of surname, court decisions of Ukraine.",
+    "text" : "Birth certificate is a certificate of state registration of a civil status act - the fact of a child's birth. This document contains information about the child's name, date of birth, and the names of his or her parents. As a rule, a birth certificate is the main and only document until the child reaches the age when a civil passport is issued. Marriage certificate is an official document that confirms that two people are married. In most jurisdictions, a marriage certificate is issued by a civil servant only after a civil registration has been made.",
+    "stepTitle" : "Check apostilles of the Ministry of Justice of Ukraine",
+    "step" : {
+      "title" : "",
+      "title1" : ""
+    }
+  },
+  "tabComponent2": {
+    "title": "References with apostille and translation",
+    "subtitle": "A certificate of no criminal record is a document that confirms the fact that an individual has no criminal record, as well as the fact that an individual is not wanted. In Ukraine, the Department of Information and Analytical Support of the Ministry of Internal Affairs is responsible for issuing certificates of no criminal record.",
+    "text" : "Extract from the information-analytical system:\n Accounting of information on bringing a person to criminal liability and the presence of a criminal record",
+    "stepTitle" : "Checking the legitimacy of a criminal record certificate",
+    "step" : {
+      "title" : "",
+      "title1" : ""
+    }
+  },
+  "stepText": {
+    "stepText1": "Submit an application",
+    "stepText2": "Agree on terms, cost, payment options",
+    "stepText3": "Receive the order as soon as possible in a convenient way"
+  },
+  "send": "Send",
+  "clear": "Clear",
+  "formContact": {
+    "userName": "Name",
+  "userPhone": "Phone number",
+  "userPhoneES": "Phone number Spain",
+  "userEmail": "Email",
+  "userSelect": "Select",
+  "userMessage": "Message",
+  "userSubject": "Subject"
+},
+  "contactForm": {
+ "arr": {
+  "orderDocument": "Order Documents",
+  "conDocument": "Consultation",
+  "helpDocument": "Help with translation",
+  "feedback": "Feedback"
+}
+},
+"contactProjectText": {
+"txt1": "WE'RE ALWAYS IN TOUCH",
+"txt2": "You can fill out the contact form"
+},
+"footer": {
+"socialNet": "Our social networks",
+"companyName": "DOCUMENT LEGALIZATION BUREAU",
+"service": "Other services",
+"contact": "Contact us",
+"address": "Our address",
+"addressMain": "20 Ilyinska St., Kyiv, Ukraine, 02000",
+"timetable": "Work schedule",
+"daytable": "Mon-Fri"
+},
+"service": {
+"title": "Translation of documents into Spanish and other languages (more than 30 languages)",
+"title1": "Filling out forms",
+"title2": "Legalization of documents at the Spanish Embassy for visas for work contracts, family reunification, study, etc.",
+"title3": "Apostille affixing at the Ministry of Justice of Ukraine",
+"title4": "Apostille affixing in the Ministry of Education and Science of Ukraine",
+"title5": "Apostille affixing in the Ministry of Foreign Affairs of Ukraine",
+"title6": "Obtaining certificates of no criminal record in the Ministry of Internal Affairs of Ukraine",
+"title7": "Certification of medical certificates in the Ministry of Health of Ukraine",
+"title8": "Registration and legalization of documents for all countries"
+},
+"service1" : {
+"title" : "Reclamation of any documents of Ukrainian origin (and not only)",
+
+"title1" : "Preparation of documents for submission to official institutions of foreign countries:",
+
+"title2" : "Requesting registry office documents of the new sample - birth, marriage, divorce certificates, extracts on change of premarital surname and single mother's name, etc",
+
+"title3" :  "Obtaining duplicate documents (birth / marriage / death certificates) + APOSTIL.",
+
+"title4" : "Production of a certificate of no criminal record for citizens of Ukraine + APOSTILE;",
+
+"title5" : "Issuance of certificates of residence registration + APOSTOL",
+
+"title6" : "Statements of marital status;",
+
+"title7" : "Apostille and double apostille affixing;",
+
+"title8" : "Apostille affixing on notarized copies of documents (passports, employment records, etc., including old-style birth certificates - green books issued before August 24, 1991);",
+
+"title9" : "Affixing an APOSTIL on educational documents;"
+
+},
+  "titleService" : "We provide services for obtaining documents for citizens of Ukraine and European countries!",
+  "questionService" : "Frequently Asked Questions",
+  "questionSection" : {
+    "title" : "What do I need to order a certificate? ",
+    "title1" : "How is the payment made? ",
+    "title2" : "Delivery of the document is included in the shipping cost and is carried out at the address you specified when placing the order"
+  },
+  "answerSection" : {
+    "txt" : "To obtain a certificate of no criminal record, you need to send the following documents in a messenger convenient for you, or by specifying your phone number by e-mail.",
+    "txt1" : "The service is provided upon an advance payment of 50 euros. The second part of the payment takes place after the document (or documents) is ready.Important: work begins upon receipt of the advance payment of 50 euros.",
+    "txt2" : "Delivery of the document is included in the shipping cost and is carried out to the address you specified when placing the order."
+  },
+  "searchString" : "Search",
+  "exampleString" : "Example Document"
+
+}
