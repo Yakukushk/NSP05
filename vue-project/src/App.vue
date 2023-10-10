@@ -24,4 +24,8 @@ import { RouterView } from 'vue-router'
   opacity: 0;
   transform: scale(0.9);
 }
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
 </style>

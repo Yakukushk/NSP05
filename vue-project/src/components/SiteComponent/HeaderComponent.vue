@@ -47,7 +47,7 @@ export default defineComponent({
     <v-card color="#0C4A60">
 
 
-      <v-col cols="3">
+      <v-col cols="3" sm="5">
         <select class="form-select form-select-sm" v-model="selectedLanguage" @change="switchLang(locale)"
                 style="width: 120px">
           <option value="en">English</option>
@@ -59,7 +59,7 @@ export default defineComponent({
 
       <v-card-title class="text-sm-center justify-sm-center">
 
-        <h3 class="font-weight-bold text-h2">
+        <h3 class="h2_txt font-weight-bold text-h2">
           TRANSLATIONS AND LEGALIZATION
         </h3>
       </v-card-title>
@@ -101,7 +101,9 @@ export default defineComponent({
     position: relative;
     display: flex;
   }
-
+  .h2_txt{
+    font-size: 5px;
+  }
 }
 
 .bg-basil {

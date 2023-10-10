@@ -4,6 +4,7 @@
 <template>
   <div>
     <v-container>
+      <!-- Первый блок -->
       <v-row
           no-gutters
           style="height: auto;"
@@ -16,6 +17,7 @@
         </v-col>
       </v-row>
 
+      <!-- Второй блок -->
       <v-row
           no-gutters
           style="height: auto;"
@@ -28,6 +30,7 @@
         </v-col>
       </v-row>
 
+      <!-- Третий блок -->
       <v-row
           no-gutters
           style="height: auto;"
@@ -40,6 +43,7 @@
         </v-col>
       </v-row>
 
+      <!-- Четвертый блок -->
       <v-row
           no-gutters
           style="height: auto;"
@@ -51,10 +55,24 @@
           </v-sheet>
         </v-col>
       </v-row>
-
     </v-container>
   </div>
 </template>
+
+<style scoped>
+/* Стили для мобильных устройств с помощью медиа-запроса */
+@media only screen and (max-width: 600px) {
+  /* Ваши стили для мобильных устройств */
+  .fw-medium {
+    font-size: 20px; /* Пример изменения размера шрифта для заголовков */
+  }
+
+  .fw-light {
+    font-size: 16px; /* Пример изменения размера шрифта для подзаголовков */
+  }
+}
+</style>
+
 
 <style scoped>
 </style>

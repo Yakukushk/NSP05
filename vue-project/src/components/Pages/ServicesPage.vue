@@ -68,6 +68,16 @@ export default defineComponent({
 html, body {
   font-family: "Source Sans Pro";
 }
+@media only screen and (max-width: 600px) {
+
+  .fw-bold {
+    font-size: 20px;
+  }
+
+  .fw-medium {
+    font-size: 16px;
+  }
+}
 </style>
 <template>
   <div class="text-center position-absolute top-50 start-50 translate-middle" v-if="store.loading">
@@ -96,27 +106,26 @@ html, body {
       <section>
         <div v-motion-fade-visible-once>
           <v-expansion-panels variant="popout" class="my-4" multiple v-model="isOpen">
+
             <v-expansion-panel class="fw-bold" :title="$t(lang.service)">
               <v-expansion-panel-text>
                 <v-list v-for="service in services">
                   <v-list-item>
-                    <v-list-item-title class="fw-medium">{{ $t(service) }}</v-list-item-title>
+                    <p class="fw-medium">{{ $t(service) }}</p>
                   </v-list-item>
-
                 </v-list>
               </v-expansion-panel-text>
             </v-expansion-panel>
+
             <v-expansion-panel class="fw-bold" :title="$t(lang.service1)" :readonly="isOpen">
               <v-expansion-panel-text>
                 <v-list v-for="service in services1">
                   <v-list-item>
-                    <v-list-item-title class="fw-medium">{{ $t(service) }}</v-list-item-title>
+                    <p class="fw-medium">{{ $t(service) }}</p>
                   </v-list-item>
-
                 </v-list>
               </v-expansion-panel-text>
             </v-expansion-panel>
-
           </v-expansion-panels>
         </div>
       </section>
