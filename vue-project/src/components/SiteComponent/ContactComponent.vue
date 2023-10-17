@@ -2,6 +2,8 @@
 import {defineComponent, reactive} from "vue";
 import {Email} from "@/smtp/smtp";
 import Swal from "sweetalert2";
+import {required} from "@vuelidate/validators";
+import useVuelidate from "@vuelidate/core";
 
 
 export default defineComponent({
@@ -24,17 +26,22 @@ export default defineComponent({
       formValues.userName = "";
       formValues.userEmail = "";
       formValues.userSelect = "";
+      formValues.userSubject = "";
 
     }
-    const sendMessage = () => {
+    const rules = {
+      userName : {required},
+      userPhone: {required},
+      userEmail: {required},
+      userSubject: {required},
+      userSelectItem: {required},
+      textArea: {required}
+    }
+    const v$ = useVuelidate(rules, formValues)
+    const sendMessage = async() => {
       try {
-        if(formValues.userName === null || formValues.userEmail === null){
-          Swal.fire(
-              'Error! message not sent!',
-              '',
-              'error'
-          )
-        } else {
+        const result = await v$.value.$validate();
+        if(result){
           const message = Email.send({
             Host: "smtp.elasticemail.com",
             Port: 2525,
@@ -58,8 +65,15 @@ export default defineComponent({
               '',
               'success'
           )
+          clearData();
+        } else  {
+          Swal.fire(
+              'Message was not sent!',
+              '',
+              'error'
+          )
         }
-        clearData();
+
       } catch (error) {
         console.error("Error sending message:");
         Swal.fire(
@@ -69,9 +83,10 @@ export default defineComponent({
         )
 
       }
+
     };
     return {
-      formValues, clearData, sendMessage
+      formValues, clearData, sendMessage, v$
     }
   }
 })
@@ -149,7 +164,7 @@ export default defineComponent({
                 {{ $t('send') }}
               </button>
 
-              <button class="btn btn-secondary fw-medium" @click="clearData">
+              <button type="reset" class="btn btn-secondary fw-medium" @click="clearData">
                 {{ $t('clear') }}
               </button>
             </form>
